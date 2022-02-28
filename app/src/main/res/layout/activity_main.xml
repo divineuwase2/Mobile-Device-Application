@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="-14dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_marginTop="36dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:srcCompat="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10px"
+            android:text="Sign in to your account!"
+            android:textSize="100px"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.299" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email address (required)"
+            android:textSize="35px"
+            android:layout_marginTop="50px"
+            android:paddingLeft="150px"/>
+
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="400dp"
+            android:layout_height="120px"
+            android:layout_margin="10px"
+            android:background="@drawable/button_bg"
+            android:ems="10"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password (required)"
+            android:textSize="35px"
+            android:layout_marginTop="40px"
+            android:paddingLeft="150px"/>
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="400dp"
+            android:layout_height="120px"
+            android:layout_margin="10px"
+            android:background="@drawable/button_bg"
+            android:ems="10"
+            android:inputType="textPassword"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="347dp" />
+
+        <TextView
+            android:id="@+id/link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:clickable="true"
+            android:gravity="right"
+            android:text="Forgot password?"
+            android:layout_marginLeft="400px"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80dp" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:text="Sign In"
+            android:layout_marginLeft="10px"/>
+
+        <TextView
+            android:id="@+id/account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30px"
+            android:text="-Don't have an account?-"
+            android:textSize="50px" />
+
+        <Button
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Create a new account"
+            android:textColor="@color/blue"
+            android:layout_marginLeft="10px" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

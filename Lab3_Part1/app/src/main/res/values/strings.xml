@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Lab3_Part1</string>
+    <string name="add">Add</string>
+    <string name="version">Enter android version</string>
+    <string name="code">Enter android code name</string>
+    <string name="col1">Android 5.0</string>
+</resources>
