@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShopByCategory"
+
+    >
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginStart="130dp"
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shop_by_categories"
+        android:textSize="30sp"
+        android:layout_marginStart="85dp"
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp"/>
+    <TableLayout
+        android:id="@+id/tb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow
+            android:id="@+id/tr1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            >
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/electronics"
+                android:padding="10dp"
+                android:onClick="selectedProduct"
+                />
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/clothing"
+                android:padding="10dp"
+                android:onClick="selectedProduct"
+                />
+        </TableRow>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <TableRow
+            android:id="@+id/tr2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/beauty"
+                android:padding="10dp"
+                android:onClick="selectedProduct"
+                />
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/food"
+                android:padding="10dp"
+                android:onClick="selectedProduct"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
