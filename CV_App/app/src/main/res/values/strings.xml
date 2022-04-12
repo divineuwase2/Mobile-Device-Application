@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Resume App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Main -->
+    <string name="user_login">User Login</string>
+    <string name="user_home">Home</string>
+    <string name="logout">Logout</string>
+
+    <string name="my_name">Divine Uwase </string>
+    <string name="job_title"> Java Developer/Senior Associate </string>
+    <string name="strength"> Strengths </string>
+    <string name="strength_title"> Personal Strength </string>
+    <string name="strength_desc"> I am a motivated fast learner.
+ </string>
+    <string name="location">location</string>
+    <string name="fairfield_iowa_united_states">Fairfield, Iowa, United States</string>
+    <string name="fairfield_iowa">Fairfield, Iowa</string>
+    <string name="professional_summary">Professional Summary</string>
+    <string name="summary_description">Skilled Java developer with 4+ years of industry experience in the design and development of complex software solutions for a range of clients and industries.</string>
+    <string name="career_note">Career Note</string>
+    <string name="summary">Completed on-campus studies and currently taking distance education courses to complete a Master’s Degree in computer Science(Available for full-time W-2 employment).</string>
+    <string name="dedication">Dedication</string>
+    <string name="team_player">Team Player</string>
+    <string name="analytics_desc">I am a dedicated software engineer who values and loves her work and is always ready to learn new technologies to get better every day. </string>
+    <string name="communication_desc">Great team player who have worked in small teams as well as large teams and collaborated on different projects in teams.</string>
+    <string name="technical_proficiency">Technical Proficiency</string>
+    <string name="personal_email"> divineuwase2gmail.com</string>
+    <string name="contact_information">Contact Information</string>
+    <string name="phone_number">+1–(515)–528-4900</string>
+    <string name="experiences">Experience</string>
+    <string name="higher_education">Higher Education</string>
+    <string name="masters1">Maharishi International University</string>
+    <string name="master_of_computer_science">Master of Computer Science</string>
+    <string name="miu_year">2020 - 2023</string>
+    <string name="university_of_kigali">University of Kigali</string>
+    <string name="bachelor">Bachelor of Business and Information Technology</string>
+    <string name="uok_year">2016 - 2019</string>
+    <string name="other_certifications">Other Certifications</string>
+    <string name="nokia_corporation">Nokia Corporation</string>
+    <string name="emea_nokia">Europe, Middle East and Africa (EMEA)</string>
+    <string name="nokia_year">2009 - 2014</string>
+    <string name="agilsys">Software Engineer</string>
+    <string name="responsibilities">Responsibilities</string>
+    <string name="pure_integration">Pure Integration</string>
+    <string name="remote">Remote</string>
+    <string name="software_engineer">Java Developer/Senior Associate</string>
+    <string name="_2021_present">2021 - present</string>
+    <string name="my_contacts">My Contacts</string>
+    <string name="title_activity_inflation">inflation_activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!--Skills -->
+    <string name="skills">Skills</string>
+    <string name="add_new_skill">Add new skill</string>
+    <string name="cancel">Cancel</string>
+    <string name="references">References</string>
+    <string name="john_smith_randal">Gerard Karemera</string>
+    <string name="ref1">+1-(443) -722 -5946</string>
+   <string name="hobbies">Hobbies</string>
+   <string name="reading">Reading</string>
+   <string name="swimming">Swimmming</string>
+   <string name="music">Music</string>
+   <string name="theater">Theater</string>
+   <string name="more_references_provided_upon_request">More references provided upon request</string>
+   <string name="phone_dial_button">phone dial button</string>
+   <string name="my_phone_number">+1 (515) 528-4900</string>
+</resources>

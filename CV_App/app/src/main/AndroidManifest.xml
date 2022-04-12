@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.cv">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:title="CV_App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.app.cv.ReferencesActivity"
+            android:exported="false"
+            android:label="References"
+            android:parentActivityName="com.app.cv.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.cv.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.app.cv.HobbiesActivity"
+            android:exported="false"
+            android:label="Hobbies"
+            android:parentActivityName="com.app.cv.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.cv.MainActivity" />
+        </activity>
+
+        <activity
+            android:name="com.app.cv.ContactActivity"
+            android:exported="false"
+            android:label="Contact Me"
+            android:parentActivityName="com.app.cv.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.cv.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.app.cv.inflation_activity"
+            android:exported="false"
+            android:label="@string/title_activity_inflation"
+            android:parentActivityName="com.app.cv.MainActivity" />
+        <activity android:name="com.app.cv.Login"
+            android:exported="false"
+            android:label="@string/title_activity_inflation"
+            android:parentActivityName="com.app.cv.MainActivity" />
+        <activity
+            android:name="com.app.cv.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

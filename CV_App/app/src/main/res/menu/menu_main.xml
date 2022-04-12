@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.cv.MainActivity">
+    <!--
+
+        <item
+            android:id="@+id/action_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orderInCategory="1"
+            android:title="Home"
+            android:icon="@drawable/icon_home"
+            app:showAsAction="never"
+            tools:ignore="HardcodedText"/>
+
+        <item
+            android:id="@+id/action_education"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orderInCategory="2"
+            android:title="Education"
+            android:icon="@drawable/icon_education"
+            app:showAsAction="never"
+            tools:ignore="HardcodedText"/>
+
+        <item
+            android:id="@+id/action_skills"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orderInCategory="3"
+            android:title="Skills"
+            android:icon="@drawable/icon_skills"
+            app:showAsAction="never"
+            tools:ignore="HardcodedText"/>
+
+        <item
+            android:id="@+id/action_work"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orderInCategory="4"
+            android:title="``WorkFragment.kt``"
+            android:icon="@drawable/icon_work"
+            app:showAsAction="never"
+            tools:ignore="HardcodedText"/>
+    -->
+
+    <item
+        android:id="@+id/action_hobbies"
+        android:icon="@drawable/icon_hobbies"
+        android:orderInCategory="5"
+        android:title="Hobbies"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/action_contact"
+        android:icon="@drawable/icon_contact"
+        android:orderInCategory="6"
+        android:title="Contact Me"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+    <item
+        android:id="@+id/action_references"
+        android:icon="@drawable/icon_references"
+        android:orderInCategory="7"
+        android:title="References"
+        app:showAsAction="never"
+        tools:ignore="HardcodedText" />
+
+
+</menu>
